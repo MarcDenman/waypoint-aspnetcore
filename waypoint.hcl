@@ -10,7 +10,7 @@ app "webapp"{
     deploy {
         use "docker" {
             static_environment = {
-                "ASPNETCORE_URLS": "http://+3000"
+                "ASPNETCORE_URLS": "http://+:3000"
             }
         }
     }
