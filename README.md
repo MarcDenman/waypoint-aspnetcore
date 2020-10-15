@@ -7,6 +7,9 @@ First pass example of running a ASP.NETCore application using Waypoint
 - Navigate into directory
 - Run `waypoint init`
 - Run `waypoint up`
+  - First run will take a little while
+  - Waypoint will give you a URL once it is build, deployed and released
+- Run `waypoint ui -authenticate` to poke around the UI
 
 Notes:
 
