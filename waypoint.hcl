@@ -8,7 +8,7 @@ app "webapp"{
     }
 
     deploy {
-        use "docker {
+        use "docker" {
             static_environment = {
                 "ASPNETCORE_URLS": "http://+3000"
             }
